@@ -9,7 +9,6 @@ description = "A software engineer in the domain of distributed data systems, cu
 profilePicture = "images/profile.jpg"
 
 [menu]
-
   [[menu.main]]
   name = "Home"
   identifier = "home"
