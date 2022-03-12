@@ -1,4 +1,4 @@
-baseURL = 'http://loyvon.github.io/arcadia'
+baseURL = 'http://loyvon.github.io/'
 languageCode = 'en-us'
 title = 'Arcadia'
 theme = 'anatole'
