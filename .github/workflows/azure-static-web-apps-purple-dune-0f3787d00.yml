@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      #- name: Setup Hugo
-      #  uses: peaceiris/actions-hugo@v2
-      #  with:
-      #    hugo-version: '0.94.1'
-      #    extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.94.1'
+          extended: true
       - uses: actions/checkout@v2
         with:
           submodules: true
@@ -36,8 +36,6 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-          hugo-version: '0.94.1'
-          extended: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
