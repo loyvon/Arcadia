@@ -1,12 +1,7 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://loyvon.github.io/arcadia'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-[module]
-  # uncomment line below for temporary local development of module
-  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
-  [[module.imports]]
-    path = "github.com/lxndrblz/anatole"
-    disable = false
+title = 'Arcadia'
+theme = 'anatole'
 [params]
 title = "Arcadia"
 author = "Wei Wang"
