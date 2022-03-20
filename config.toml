@@ -1,6 +1,6 @@
 baseURL = 'http://loyvon.github.io/'
 languageCode = 'en-us'
-title = 'Arcadia'
+title = 'Wei Wang'
 
 [module]
   # uncomment line below for temporary local development of module
@@ -10,7 +10,7 @@ title = 'Arcadia'
     disable = false
 
 [params]
-title = "Arcadia"
+title = "Wei Wang"
 author = "Wei Wang"
 description = "A software engineer in the domain of distributed data systems, currently working at Microsoft."
 profilePicture = "images/profile.jpg"
