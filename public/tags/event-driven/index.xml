@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Event Driven on Wei Wang</title><link>https://loyvon.github.io/Arcadia/tags/event-driven/</link><description>Recent content in Event Driven on Wei Wang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Mar 2022 02:37:52 +0800</lastBuildDate><atom:link href="https://loyvon.github.io/Arcadia/tags/event-driven/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Event Grid学习笔记</title><link>https://loyvon.github.io/Arcadia/post/azure-event-grid-notes/</link><pubDate>Sun, 13 Mar 2022 02:37:52 +0800</pubDate><guid>https://loyvon.github.io/Arcadia/post/azure-event-grid-notes/</guid><description>&lt;h1 id="关于"&gt;关于&lt;/h1&gt;
+&lt;p&gt;事件驱动(Event-driven)是一个在云计算领域越来越广泛应用的模式。我们可以设计不同的trigger，然后当这些trigger对应的条件满足时，trigger一个特定的事件。Event grid是专门为这类场景而设计的，也就是为了让开发者访问云基础架构产生的事件以及其他的自定义的事件。&lt;/p&gt;
+&lt;p&gt;这项技术之外，有哪些技术也在做类似的事情呢？&lt;/p&gt;
+&lt;p&gt;AWS的SNS就是一个类似的技术。和SNS不一样的地方在于，SNS会将消息发送给每一个subscriber，Event grid则让cusumer可以选择过滤过的topic。&lt;/p&gt;
+&lt;h1 id="典型架构"&gt;典型架构&lt;/h1&gt;
+&lt;p&gt;&lt;img src="https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/media/serverless-application-architectures-using-event-grid.png" alt="架构"&gt;&lt;/p&gt;
+&lt;h1 id="参考"&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://thenewstack.io/closer-look-azure-event-grid/"&gt;https://thenewstack.io/closer-look-azure-event-grid/&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
