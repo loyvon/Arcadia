@@ -1,4 +1,6 @@
 baseURL = 'https://loyvon.github.io/Arcadia/'
+googleAnalytics = ""
+disqusShortname = ""
 languageCode = 'en-us'
 title = 'Wei Wang'
 
